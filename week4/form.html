@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>NU Portal</h1>
+    </header>
+    <main>
+      <h2>Portal Registration Form</h2>
+      <form action="#" method="POST">
+        <!-- Personal Information -->
+        <fieldset>
+          <legend>Personal Information</legend>
+          <div>
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first_name" id="first-name" />
+            <br />
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last_name" id="last-name" />
+          </div>
+          <div>
+            Gender:
+            <label
+              >Male:
+              <input type="radio" name="gender" value="M" />
+            </label>
+            <label>
+              Female:
+              <input type="radio" name="gender" value="F" />
+            </label>
+          </div>
+          <div>
+            <label for="dob">Date of birth:</label>
+            <input type="date" id="dob" name="dob" />
+          </div>
+        </fieldset>
+        <!-- Contact Information -->
+        <fieldset>
+          <legend>Contact Information</legend>
+          <div>
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="address">Current Address:</label>
+            <textarea name="address" id="address"></textarea>
+          </div>
+        </fieldset>
+        <!-- Account Setting -->
+        <fieldset>
+          <legend>Account Setting</legend>
+          <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" />
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" />
+          </div>
+        </fieldset>
+        <!-- actions -->
+        <div>
+          <label>
+            Accept terms and conditions
+            <input type="checkbox" name="terms" />
+          </label>
+          <hr />
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; NU 2026</p>
+    </footer>
+  </body>
+</html>
