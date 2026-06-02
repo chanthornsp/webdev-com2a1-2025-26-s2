@@ -1,0 +1,44 @@
+/* element selector */
+body {
+  background-color: #f2fce9;
+  font-family: "Gochi Hand", cursive;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+/* class selector */
+.my-header {
+  background-color: #ffffff; /* white*/
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px purple; /* x y blur color*/
+  border-radius: 20px 20px 0 0;
+  border: 2px solid purple;
+}
+/* Section Design */
+.my-section {
+  background-color: #ffffff;
+  padding: 8px 20px;
+  margin-bottom: 20px;
+  border: 2px solid purple;
+  box-shadow: 0 4px 8px purple;
+  border-radius: 20px;
+  /* effect, duration, timing-function */
+  transition: all 0.5s ease-in-out;
+}
+.my-section:hover {
+  transform: scale(1.05);
+}
+/* Footer design */
+#my-footer {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid purple;
+  box-shadow: 0 4px 8px purple;
+  border-radius: 0 0 20px 20px;
+  font-size: 28x;
+  font-weight: bold;
+}
